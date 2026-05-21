@@ -20,4 +20,5 @@ describe("calculator", () => {
   test("throws when dividing by zero", () => {
     expect(() => divide(10, 0)).toThrow("Cannot divide by zero");
   });
+  
 });
